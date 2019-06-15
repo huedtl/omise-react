@@ -10,7 +10,10 @@
 2) npm run client 
 3) npm run build (Build Assets)
 
-**Tamboon React** is a code challenge for frontend developer.
+![image](https://user-images.githubusercontent.com/3445663/59552154-65b53780-8fad-11e9-9442-0920ea18fa5f.png)
+
+
+##Tamboon React** is a code challenge for frontend developer.
 
 ## Scenario
 Once upon a time.. nope!  
