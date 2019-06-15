@@ -201,7 +201,7 @@ export default connect((state) => state)(
                  contentLabel="Donate Modal"
           >
 
-            <form action="#" onSubmit={() => handlePay.call(self, self.state.charityId, self.state.selectedAmount, self.state.currency, self.state.sumDonateItem)} className="donate-form default-form money-donate-block">
+            <form action="#" onSubmit={() => handlePay.call(self, self.state.charityId, self.state.selectedAmount, self.state.currency)} className="donate-form default-form money-donate-block">
               <div className="form-inner">
                 <h4>DONATION INFORMATION</h4>
                 <p>How much would you like to donate: <span className="orange-text">{self.state.name}</span></p>
@@ -218,7 +218,7 @@ export default connect((state) => state)(
   }
 );
 
-function handlePay(id, amount, currency, sumDonateItem, payments) {
+function handlePay(id, amount, currency) {
   const self = this;
   fetch(API_PAYMENTS, {
     method: 'POST',
