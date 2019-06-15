@@ -5,6 +5,10 @@
 </p>
 <br />
 
+## Run Application React
+1) npm run server (API)
+2) npm run client 
+3) npm run build (Build Assets)
 
 **Tamboon React** is a code challenge for frontend developer.
 
