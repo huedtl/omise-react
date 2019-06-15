@@ -79,6 +79,18 @@
       "amount": 50,
       "currency": "USD",
       "id": 8
+    },
+    {
+      "charitiesId": 4,
+      "amount": 10,
+      "currency": "USD",
+      "id": 9
+    },
+    {
+      "charitiesId": 1,
+      "amount": 50,
+      "currency": "USD",
+      "id": 10
     }
   ]
 }

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 import fetch from 'isomorphic-fetch';
-import Popup from "reactjs-popup";
 import Modal from 'react-modal';
+import {Button} from './../Button/Button';
 import {summaryDonations, groupByProp} from './../../helpers';
 import {UPDATE_TOTAL_DONATE, UPDATE_ITEM_DONATE, UPDATE_MESSAGE} from './../../constants/actionTypes';
 
@@ -111,7 +111,6 @@ export default connect((state) => state)(
     }
 
     render() {
-      console.log(this);
       const self = this,
       donate = this.props.donate,
       message = this.props.message,
@@ -164,8 +163,8 @@ export default connect((state) => state)(
                       <h4 className="title uppercase"><a href="#" alt="">{item.name}</a></h4>
                       <div className="desc">
                         <p>{sampleDonateDesc}</p>
-                      </div> 
-                      <button onClick={() => self.openModal(item)} className="btn linear-gradient" href="#" title="Donate">Donate</button>
+                      </div>
+                      <Button onClick={() => self.openModal(item)} >Donate</Button> 
                     </div>
                     <div className="upper-block">
                       <div className="donate-target">
@@ -209,7 +208,7 @@ export default connect((state) => state)(
                 <ul className="list-money-donate"> 
                   {payments}
                 </ul>
-                <button className="btn linear-gradient" type="submit">Pay</button>
+                <Button type="submit">Pay</Button>
               </div>
             </form>
           </Modal>
