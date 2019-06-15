@@ -19,19 +19,19 @@ const targetDonate = [
     goal: 200000 
   },
   {
-    charitiesId: 3,
+    charitiesId: 2,
     goal: 100000 
   },
   {
-    charitiesId: 4,
+    charitiesId: 3,
     goal: 300000 
   },
   {
-    charitiesId: 5,
+    charitiesId: 4,
     goal: 250000 
   },
   {
-    charitiesId: 6,
+    charitiesId: 5,
     goal: 600000 
   }
 ];
