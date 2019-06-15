@@ -1,0 +1,48 @@
+{
+	"files": {
+		"sass/simplecrew.scss": {
+			"engines": [
+				{
+					"compiler": "scss",
+					"output": "../static/css/simplecrew.css",
+					"options": {
+						"style": 0,
+						"comments": false
+					}
+				}
+			],
+			"sources": [
+				"components/_alerts.scss",
+				"components/_button.scss",
+				"components/_carousel.scss",
+				"components/_checkbox.scss",
+				"components/_datetimepicker.scss",
+				"components/_dropdown.scss",
+				"components/_file-uploading.scss",
+				"components/_icons.scss",
+				"components/_input.scss",
+				"components/_progress-bars.scss",
+				"components/_tooltip.scss",
+				"components/_typography.scss",
+				"contents/_campaign-details.scss",
+				"contents/_item-info.scss",
+				"contents/_list-items.scss",
+				"contents/_team-items.scss",
+				"contents/_user-tag.scss",
+				"contents/popup/_modal.scss",
+				"contents/popup/_modal_new.scss",
+				"fonts/_index.scss",
+				"fonts/_mixins.scss",
+				"fonts/_variables.scss",
+				"fonts/icons.scss",
+				"fonts/nucleo.scss",
+				"layout/_main.scss",
+				"layout/header/_header.scss",
+				"layout/menu/_aside-menu.scss",
+				"layout/menu/_top-navigation.scss",
+				"simplecrew.scss",
+				"variables/_index.scss"
+			]
+		}
+	}
+}

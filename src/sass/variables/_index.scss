@@ -1,0 +1,49 @@
+// HI NASTYA! - t
+// Here is the variable file from Bootstrap, we may not need so many differnt variables, but I think
+// we can use it for an example. We should make variables from our colors, fonts, etc design assets.
+
+$primaryColor: #fb5e1c;
+$secondaryColor: #2176ff;
+$veryLightPink: #bdbdbd;
+$grass: #64b22b;
+$black : #212121;
+$blue: #2176ff;
+$fadedRed: #d43b48 ;
+$deep-lilac: #a16bc9;
+$purpleColor: #6520a2;
+$brownishGrey: #757575;
+$macaroniAndCheese: #f4b03d;
+$fadedRed: #d43b48;
+$lightViolet: #d7bfe8;
+
+$defaultMargin: 24px;
+$smallButtonHeight: 32px;
+$mediumButtonHeight:42px;
+$largeButtonHeight: 48px;
+
+$createModalWidth: 540px;
+$archiveDeleteModalWidth:608px;
+
+$regularFont: SFProDisplay-Regular, sans-serif;
+$semiboldFont: SFProDisplay-Semibold, sans-serif;
+$boldFont: SFProDisplay-Bold, sans-serif;
+$mediumFont: SFProDisplay-Medium, sans-serif;
+
+$size-xs: 12px;
+$size-s: 16px;
+$size-m: 20px;
+$size-l: 24px;
+$size-xl: 30px;
+
+.hide {
+  display: none;
+}
+.show{
+  display: block !important;
+}
+.show-flex-strong{
+  display: flex !important;
+}
+.open{
+  display: block;
+}
